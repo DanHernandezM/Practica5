@@ -10,7 +10,7 @@ package com.mycompany.practica5;
  */
 import java.util.*;
 
-public abstract class TareaPeriodica{
+public abstract class TareaPeriodica implements Runnable{
 
 	protected int periodo;
 	protected Date ultimaEjecucion;
